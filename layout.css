@@ -1,0 +1,83 @@
+
+
+header {
+  background-color: #333;
+  padding: 20px 0;
+  height: 35px;
+
+}
+.hslogo {
+    padding-left: 25px;
+    position: relative;
+    bottom: 15px ;
+    max-width: 1200px;
+  }
+ 
+.logoimage {
+    width: 80px;
+}
+.logoimage:hover {
+    border: 2px solid rgba(103, 231, 67, 0.91);
+color: rgba(103, 231, 67, 0.91);
+cursor: pointer;   
+}
+
+.nav-list {
+  list-style: none;
+  }
+
+
+  .nav-list li {
+    display: inline;
+      margin-right: 20px;
+    position: relative;
+    left: 700px;
+    bottom: 7vh;
+    }
+
+
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+.nav-list li a:hover {
+    color: rgba(103, 231, 67, 0.91);
+    border: 2px solid rgba(103, 231, 67, 0.91);
+    padding: 1%;
+}
+    
+    .hub {
+      width: 39px;
+      position: relative;
+      margin-left: 80%;
+      bottom: 16vh;
+      }
+      
+      .hub:hover {
+          width: 60px;
+          border: 2px solid rgba(103, 231, 67, 0.91);
+          cursor: pointer;
+          }
+      
+      .linkedin {
+              width: 44px;
+              position: relative;
+              margin-left: 85%;
+              bottom: 22vh;
+          }
+      .linkedin:hover {
+          width: 60px;
+          border: 2px solid rgba(103, 231, 67, 0.91);
+          cursor: pointer;
+          }
+
+          .socialmedia {
+            margin-top: 30px ;
+          }
