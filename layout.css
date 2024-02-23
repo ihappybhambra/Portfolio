@@ -1,20 +1,33 @@
+body {
+  background-color: rgb(162, 192, 103);
+  animation-name: example;
+  animation-duration: 7s;
+}
 
+@keyframes example {
+  0%   {background-color: violet;}
+  50%  {background-color: yellow;}
+  100% {background-color: yellowgreen;}
+  0% {background-color: rgb(223, 245, 180);}
+}
 
 header {
-  background-color: #333;
+  background-color: #424242;
   padding: 20px 0;
-  height: 35px;
-
+  height: 45px;
+  border-radius: 10px;
+  
 }
-.hslogo {
+.navbar {
     padding-left: 25px;
     position: relative;
     bottom: 15px ;
     max-width: 1200px;
-  }
+    display: flex;
+     }
  
 .logoimage {
-    width: 80px;
+    width: 95px;
 }
 .logoimage:hover {
     border: 2px solid rgba(103, 231, 67, 0.91);
@@ -22,62 +35,127 @@ color: rgba(103, 231, 67, 0.91);
 cursor: pointer;   
 }
 
-.nav-list {
-  list-style: none;
-  }
-
-
-  .nav-list li {
-    display: inline;
-      margin-right: 20px;
-    position: relative;
-    left: 700px;
-    bottom: 7vh;
-    }
-
-
-  
-  .nav-list li:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-list li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-.nav-list li a:hover {
-    color: rgba(103, 231, 67, 0.91);
-    border: 2px solid rgba(103, 231, 67, 0.91);
-    padding: 1%;
-}
+.navsocialmedia{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center ;
+      }
     
     .hub {
       width: 39px;
       position: relative;
-      margin-left: 80%;
-      bottom: 16vh;
-      }
+     margin-right: 30px ;
+     
+     }
       
       .hub:hover {
-          width: 60px;
+          width: 55px;
+          height: 55px;
           border: 2px solid rgba(103, 231, 67, 0.91);
           cursor: pointer;
           }
       
       .linkedin {
               width: 44px;
-              position: relative;
-              margin-left: 85%;
-              bottom: 22vh;
+              height: 44px;
+            
           }
       .linkedin:hover {
-          width: 60px;
+          width:  55px;
+          height: 55px;
           border: 2px solid rgba(103, 231, 67, 0.91);
           cursor: pointer;
           }
 
-          .socialmedia {
-            margin-top: 30px ;
+         
+          .middlepart {
+            border-radius: 30px ;
+            display: flex; 
+            background-color: rgb(210, 210, 246); 
+            margin: 20px;  
+            height: 510px;
+            }
+       
+          .myphoto {
+            width: 500px;
+            height: 360px;
+            background-color: black;
+            border-radius: 20px;
+            margin: 60px; 
+            overflow:hidden;
+                        }
+
+  @media (max-width: 1000px) {
+    .myphoto{
+      display: none;
+    } }
+
+            .myinfo {
+            border-radius: 20px;
+            margin: 60px;
+            width: 750px;
+            height: 300px;
+            position: relative;
+            overflow:hidden;
           }
+
+          .myinfor {
+           margin: 20px;
+            color: rgb(255, 68, 0);
+          }
+
+          .jobtitle {
+            font-style: italic;
+            font-weight: bold;
+            color: rgb(255, 68, 0);
+            margin: 20px;
+          }
+          .description {
+            
+            font-weight: bold;
+            color: rgb(255, 68, 0);
+            margin: 20px;
+            margin-right: 60px;
+            font-size: 19px; 
+             }
+          
+           .largebutton {
+            width: 100px; 
+            height: 40px; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            border-radius: 10px;
+            margin: 10px;
+                      
+            }
+            .largebutton:hover {
+              border: 2px solid  rgb(255, 68, 0);
+              cursor: pointer;
+            }
+
+            .largebuttons{
+              display: flex;
+             align-items: center;
+             justify-content: center;
+            }
+
+            .footerr {
+              position: relative;              
+              display: flex;
+              background-color: #424242;
+              padding: 20px 0;
+              height: 45px;
+              border-radius: 10px;
+              align-items: center;
+              justify-content: center;
+              }
+
+              .copyright {
+                display: flex;   
+                   
+              }
+
+              h3 {
+                color: white;
+              }
