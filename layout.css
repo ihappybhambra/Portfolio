@@ -80,7 +80,7 @@ cursor: pointer;
        
             @media  (max-width:1000px){
               .middlepart{
-                height: 600px;
+                height: 700px;
                 } }
 
           .myphoto {
@@ -104,8 +104,15 @@ cursor: pointer;
             max-height: 1200px;
             position: relative;
             overflow: hidden;
+            background-color: red;
              }
-         
+
+             @media (max-width: 1200px) {
+              .myinfo {
+                height: 700px;
+              }
+              
+             }
           .myinfor {
            margin: 20px;
            position: relative;
