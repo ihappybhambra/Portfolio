@@ -38,17 +38,18 @@ cursor: pointer;
 .navsocialmedia{
   display: flex;
   position: relative;
-  justify-content: center;
   align-items: center ;
+  left: 1170px;
       }
     
     .hub {
       width: 39px;
       position: relative;
      margin-right: 30px ;
-     
-     }
-      
+     left: 1170px;  
+     top: 16px;  
+      }
+        
       .hub:hover {
           width: 55px;
           height: 55px;
@@ -59,8 +60,11 @@ cursor: pointer;
       .linkedin {
               width: 44px;
               height: 44px;
-            
+              position: relative;
+              left: 1170px;
+              top: 16px;                
           }
+
       .linkedin:hover {
           width:  55px;
           height: 55px;
@@ -77,6 +81,11 @@ cursor: pointer;
             height: 510px;
             }
        
+            @media  {
+              .middlepart{
+                height: 600px;
+              } }
+
           .myphoto {
             width: 500px;
             height: 360px;
@@ -90,18 +99,20 @@ cursor: pointer;
     .myphoto{
       display: none;
     } }
-
+    
             .myinfo {
             border-radius: 20px;
-            margin: 60px;
             width: 750px;
-            height: 300px;
+            height: 600px;
+            max-height: 1200px;
             position: relative;
-            overflow:hidden;
-          }
-
+            overflow: hidden;
+             }
+         
           .myinfor {
            margin: 20px;
+           position: relative;
+           top: 50px;
             color: rgb(255, 68, 0);
           }
 
@@ -109,15 +120,19 @@ cursor: pointer;
             font-style: italic;
             font-weight: bold;
             color: rgb(255, 68, 0);
+            position: relative;
+            top: 35px;
             margin: 20px;
           }
           .description {
             
             font-weight: bold;
             color: rgb(255, 68, 0);
+            position: relative;
             margin: 20px;
             margin-right: 60px;
             font-size: 19px; 
+            top: 30px;
              }
           
            .largebutton {
@@ -127,20 +142,19 @@ cursor: pointer;
             font-size: 16px; 
             border-radius: 10px;
             margin: 10px;
-                      
-            }
+            font-weight: bold;
+           }
+
+           .largebuttons {
+            justify-content: center;
+            align-items: center;
+           }
             .largebutton:hover {
               border: 2px solid  rgb(255, 68, 0);
               cursor: pointer;
             }
 
-            .largebuttons{
-              display: flex;
-             align-items: center;
-             justify-content: center;
-            }
-
-            .footerr {
+             .footerr {
               position: relative;              
               display: flex;
               background-color: #424242;
@@ -158,4 +172,27 @@ cursor: pointer;
 
               h3 {
                 color: white;
+              }
+
+              .cv {
+              background-color: yellowgreen;
+              border-radius: 8px;
+              padding: 15px;
+              font-weight: bold;
+              position: absolute;
+             
+              }
+              .cv:hover{
+                background-color: rgb(255, 68, 0);
+                 cursor: pointer;
+                 opacity: 90%;
+
+              }
+
+              .downloadcv {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                right: 60px;
+                top: 30px;
               }
