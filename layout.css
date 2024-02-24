@@ -70,7 +70,6 @@ cursor: pointer;
           cursor: pointer;
           }
 
-         
           .middlepart {
             border-radius: 30px ;
             display: flex; 
@@ -82,7 +81,7 @@ cursor: pointer;
             @media  (max-width:1000px){
               .middlepart{
                 height: 600px;
-              } }
+                } }
 
           .myphoto {
             width: 500px;
@@ -112,6 +111,7 @@ cursor: pointer;
            position: relative;
            top: 50px;
             color: rgb(255, 68, 0);
+            text-align: center;
           }
 
           .jobtitle {
@@ -121,6 +121,8 @@ cursor: pointer;
             position: relative;
             top: 35px;
             margin: 20px;
+            text-align: center;
+
           }
           .description {
             
@@ -131,21 +133,27 @@ cursor: pointer;
             margin-right: 60px;
             font-size: 19px; 
             top: 30px;
+            text-align: center;
+
              }
           
            .largebutton {
             width: 100px; 
             height: 40px; 
-            padding: 10px 20px; 
             font-size: 16px; 
             border-radius: 10px;
             margin: 10px;
             font-weight: bold;
+            text-align: center;
+
+            
            }
 
            .largebuttons {
             justify-content: center;
             align-items: center;
+            text-align: center;
+
            }
             .largebutton:hover {
               border: 2px solid  rgb(255, 68, 0);
@@ -155,16 +163,17 @@ cursor: pointer;
              .footerr {
               position: relative;              
               display: flex;
-              background-color: #424242;
-              padding: 20px 0;
+              background-color:#424242; 
+              padding : 20px 0;
               height: 45px;
               border-radius: 10px;
               align-items: center;
               justify-content: center;
               }
 
+
               .copyright {
-                display: flex;   
+                display: flex;  
                 }
 
                 h3 {
@@ -178,6 +187,7 @@ cursor: pointer;
               padding: 15px;
               font-weight: bold;
               position: absolute;
+
              
               }
               .cv:hover{
