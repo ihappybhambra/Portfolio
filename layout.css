@@ -81,7 +81,7 @@ cursor: pointer;
             height: 510px;
             }
        
-            @media  {
+            @media  (max-width:1000px){
               .middlepart{
                 height: 600px;
               } }
