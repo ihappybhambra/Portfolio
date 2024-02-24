@@ -16,6 +16,7 @@ header {
   padding: 20px 0;
   height: 45px;
   border-radius: 10px;
+  overflow: hidden;
   
 }
 .navbar {
@@ -40,14 +41,13 @@ cursor: pointer;
   position: relative;
   align-items: center ;
   left: 1170px;
+  overflow: hidden;
       }
     
     .hub {
       width: 39px;
       position: relative;
      margin-right: 30px ;
-     left: 1170px;  
-     top: 16px;  
       }
         
       .hub:hover {
@@ -61,8 +61,6 @@ cursor: pointer;
               width: 44px;
               height: 44px;
               position: relative;
-              left: 1170px;
-              top: 16px;                
           }
 
       .linkedin:hover {
@@ -167,12 +165,12 @@ cursor: pointer;
 
               .copyright {
                 display: flex;   
-                   
-              }
+                }
 
-              h3 {
-                color: white;
-              }
+                h3 {
+                  color: white;
+                  text-decoration: none;                  
+                }
 
               .cv {
               background-color: yellowgreen;
