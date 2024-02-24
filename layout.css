@@ -104,7 +104,6 @@ cursor: pointer;
             max-height: 1200px;
             position: relative;
             overflow: hidden;
-            background-color: red;
              }
 
              @media (max-width: 1200px) {
