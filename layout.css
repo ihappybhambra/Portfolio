@@ -23,8 +23,11 @@ header {
     padding-left: 25px;
     position: relative;
     bottom: 15px ;
-    max-width: 1200px;
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 30px;
+    
      }
  
 .logoimage {
@@ -39,8 +42,6 @@ cursor: pointer;
 .navsocialmedia{
   display: flex;
   position: relative;
-  align-items: center ;
-  left: 1170px;
   overflow: hidden;
       }
     
@@ -71,17 +72,12 @@ cursor: pointer;
           }
 
           .middlepart {
-            border-radius: 30px ;
+            border-radius: 15px ;
             display: flex; 
             background-color: rgb(210, 210, 246); 
-            margin: 20px;  
-            height: 510px;
+            margin: 5px;  
+            height: 550px;
             }
-       
-            @media  (max-width:1000px){
-              .middlepart{
-                height: 700px;
-                } }
 
           .myphoto {
             width: 500px;
@@ -92,11 +88,6 @@ cursor: pointer;
             overflow:hidden;
                         }
 
-  @media (max-width: 1000px) {
-    .myphoto{
-      display: none;
-    } }
-    
             .myinfo {
             border-radius: 20px;
             width: 750px;
@@ -106,12 +97,6 @@ cursor: pointer;
             overflow: hidden;
              }
 
-             @media (max-width: 1200px) {
-              .myinfo {
-                height: 700px;
-              }
-              
-             }
           .myinfor {
            margin: 20px;
            position: relative;
@@ -136,7 +121,6 @@ cursor: pointer;
             color: rgb(255, 68, 0);
             position: relative;
             margin: 20px;
-            margin-right: 60px;
             font-size: 19px; 
             top: 30px;
             text-align: center;
@@ -151,14 +135,14 @@ cursor: pointer;
             margin: 10px;
             font-weight: bold;
             text-align: center;
-
-            
+          
            }
 
            .largebuttons {
             justify-content: center;
             align-items: center;
             text-align: center;
+            margin-top: 50px;
 
            }
             .largebutton:hover {
@@ -176,11 +160,6 @@ cursor: pointer;
               align-items: center;
               justify-content: center;
               }
-
-
-              .copyright {
-                display: flex;  
-                }
 
                 h3 {
                   color: white;
@@ -210,3 +189,21 @@ cursor: pointer;
                 right: 60px;
                 top: 30px;
               }
+
+              @media  all and (max-width: 1200px){
+                .middlepart{
+                  height: 700px;
+                  } 
+                }
+                            
+
+                  @media screen and (max-width: 1200px) {
+                    .myphoto{
+                      display: none;
+                    } }
+
+                    @media screen and (max-width: 1200px) {
+                      .myinfo {
+                        height: 700px;
+                      }           
+                     }
