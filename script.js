@@ -1,4 +1,5 @@
 function refresh()
 {
 location.reload()
-}
+} 
+

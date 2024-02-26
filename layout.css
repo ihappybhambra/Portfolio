@@ -1,273 +1,281 @@
 body {
-  background-color: rgb(223, 245, 180);
-  animation-name: example;
-  animation-duration: 7s;
+ background-color: rgb(223, 245, 180);
+ animation-name: example;
+ animation-duration: 7s;
 }
 
 @keyframes example {
-  0%   {background-color: violet;}
-  50%  {background-color: yellow;}
-  100% {background-color: yellowgreen;}
-  0% {background-color: rgb(223, 245, 180);}
+ 0%   {background-color: violet;}
+ 50%  {background-color: yellow;}
+ 100% {background-color: yellowgreen;}
+ 0% {background-color: rgb(223, 245, 180);}
 }
 
 header {
-  background-color: #424242;
-  padding: 20px 0;
-  height: 45px;
-  border-radius: 10px;
-  overflow: hidden;
-  
-}
-.navbar {
-    padding-left: 25px;
-    position: relative;
-    bottom: 15px ;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin-right: 3vw;
-    
-     }
+ background-color: #424242;
+ padding: 20px 0;
+ height: 45px;
+ border-radius: 10px;
+ overflow: hidden;
+ }
+
+ .navbar {
+ padding-left: 25px;
+ position: relative;
+ bottom: 15px ;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ margin-right: 3vw;
+ }
  
 .logoimage {
-    width: 95px;
+width: 95px;
 }
+
 .logoimage:hover {
-    border: 2px solid rgba(103, 231, 67, 0.91);
-cursor: pointer; 
-  
+border: 2px solid rgba(103, 231, 67, 0.91);
+cursor: pointer;  
 }
 
 .navsocialmedia{
-  display: flex;
-  position: relative;
-  overflow: hidden;
-      }
+display: flex;
+position: relative;
+overflow: hidden;
+}
     
-    .hub {
-      width: 39px;
-      position: relative;
-     margin-right: 30px ;
-      }
+.hub {
+width: 39px;
+position: relative;
+margin-right: 30px ;
+}
         
-      .hub:hover {
-          width: 55px;
-          height: 55px;
-          border: 2px solid rgba(103, 231, 67, 0.91);
-          cursor: pointer;
-          }
+.hub:hover {
+width: 55px;
+height: 55px;
+border: 2px solid rgba(103, 231, 67, 0.91);
+cursor: pointer;
+}
       
-      .linkedin {
-              width: 44px;
-              height: 44px;
-              position: relative;
-          }
+.linkedin {
+width: 44px;
+height: 44px;
+position: relative;
+}
 
-      .linkedin:hover {
-          width:  55px;
-          height: 55px;
-          border: 2px solid rgba(103, 231, 67, 0.91);
-          cursor: pointer;
-          }
+.linkedin:hover {
+width:  55px;
+height: 55px;
+border: 2px solid rgba(103, 231, 67, 0.91);
+cursor: pointer;
+}
 
-          .middlepart {
-            border-radius: 15px ;
-            display: flex; 
-            background-color: rgb(210, 210, 246); 
-            margin: 5px;  
-            height: 550px;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            }
+.middlepart {
+border-radius: 15px ;
+display: flex; 
+background-color: rgb(210, 210, 246); 
+margin: 5px;  
+height: 550px;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
 
-          .myphoto {
-            width: 80vw;
-            height: 390px;
-            background-color: black;
-            border-radius: 20px;
-            margin: 60px; 
-            overflow: hidden;
-           
-            }
-
-            .myinfo {
-            border-radius: 20px;
-            width: 100%;
-            height: 100%;
-            position: relative;
-            overflow: hidden; 
-            margin-right: 20px; 
-           }
-
-          .myinfor {
-           margin: 20px;
-           position: relative;
-           top: 50px;
-            color: rgb(255, 68, 0);
-            text-align: center;
-          }
-
-          .jobtitle {
-            font-style: italic;
-            font-weight: bold;
-            color: rgb(255, 68, 0);
-            position: relative;
-            top: 35px;
-            margin: 20px;
-            text-align: center;
-
-          }
-          .description {
-            
-            font-weight: bold;
-            color: rgb(255, 68, 0);
-            position: relative;
-            margin: 20px;
-            font-size: 19px; 
-            top: 30px;
-            text-align: center;
-            }
+.myphoto {
+width: 80vw;
+height: 390px;
+background-color: black;
+border-radius: 20px;
+margin: 60px; 
+overflow: hidden;
           
-           .largebutton {
-            width: 100px; 
-            height: 40px; 
-            font-size: 16px; 
-            border-radius: 10px;
-            margin: 10px;
-            font-weight: bold;
-            text-align: center;
+}
+
+.myinfo {
+ border-radius: 20px;
+ width: 100%;
+ height: 100%;
+ position: relative;
+ overflow: hidden; 
+ margin-right: 20px; 
+ }
+
+  .myinfor {
+  margin: 20px;
+  position: relative;
+  top: 50px;
+  color: rgb(255, 68, 0);
+  text-align: center;
+  animation: slidein 2s ease-in-out            
+  }
+
+  @keyframes slidein {
+  from {
+  transform: translateX(-100%);
+  opacity: 0;
+  }
+  to {
+  transform: translateX(0);
+  opacity: 1;
+  }
+  }
+
+   .jobtitle {
+   font-style: italic;
+   font-weight: bold;
+   color: rgb(255, 68, 0);
+   position: relative;
+   top: 35px;
+   margin: 20px;
+   text-align: center;
+    }
+   
+   .description {          
+    font-weight: bold;
+    color: rgb(255, 68, 0);
+    position: relative;
+    margin: 20px;
+    font-size: 19px; 
+    top: 30px;
+    text-align: center;
+    }
           
-           }
+     .largebutton {
+     width: 100px; 
+     height: 40px; 
+     font-size: 16px; 
+     border-radius: 10px;
+     margin: 10px;
+     font-weight: bold;
+     text-align: center;   
+     }
 
-           .largebuttons {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin-top: 50px;
+    .largebuttons {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 50px;
+     }
 
-           }
-            .largebutton:hover {
-              border: 2px solid  rgb(255, 68, 0);
-              cursor: pointer;
-            }
+     .largebutton:hover {
+    border: 2px solid  rgb(255, 68, 0);
+    cursor: pointer;
+    }
 
-             .footerr {
-              position: relative;              
-              display: flex;
-              background-color:#424242; 
-              padding : 20px 0;
-              height: 45px;
-              border-radius: 10px;
-              align-items: center;
-              justify-content: center;
-              }
+    .footerr {
+    position: relative;              
+    display: flex;
+    background-color:#424242; 
+    padding : 20px 0;
+    height: 45px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    }
 
-                h3 {
-                  color: white;
-                  text-decoration: none;                  
-                }
+    h3 {
+    color: white;
+    text-decoration: none;                  
+    }
 
-              .cv {
-              background-color: yellowgreen;
-              border-radius: 8px;
-              padding: 15px;
-              font-weight: bold;
-              position: absolute;
+   .cv {
+   background-color: yellowgreen;
+   border-radius: 8px;
+   padding: 15px;
+   font-weight: bold;
+   position: absolute;       
+   }
 
-             
-              }
-              .cv:hover{
-                background-color: rgb(255, 68, 0);
-                 cursor: pointer;
-                 opacity: 90%;
+   .cv:hover{
+   background-color: rgb(255, 68, 0);
+   color: whitesmoke;
+   cursor: pointer;
+   opacity: 90%;
+   }
 
-              }
+   .downloadcv {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   right: 62px;
+   top: 30px;
+   }                    
 
-              .downloadcv {
-                display: flex;
-                justify-content: center;
-                position: relative;
-                right: 60px;
-                top: 30px;
-              }                    
+   @media (max-width: 930px) {
+  .myphoto{
+   display: flex;
+   width: 80%;
+   height: 100%;
+    margin-top: 0;
+    } }
 
-              @media (max-width: 930px) {
-                .myphoto{
-                display: flex;
-                width: 80%;
-                height: 100%;
-                margin-top: 0;
-                } }
-
-                @media (max-width:930px) {
-                  .middlepart{
-                    display: flex;
-                   flex-direction: column-reverse;
-                  }
+    @media (max-width:930px) {
+    .middlepart{
+    display: flex;
+    flex-direction: column-reverse;
+    }
                 
-                     @media (max-width: 600px) {
-                      .middlepart {
-                        height: 550px;
-                      }           
-                    }
-                        @media (max-width:840px) {
-                         .middlepart{
-                          height: 600px;
-                        }
-                      }
+    @media (max-width: 600px) {
+    .middlepart {
+    height: 550px;
+    }           
+    }
+    @media (max-width:840px) {
+    .middlepart{
+    height: 600px;
+    }
+    }
 
-                      @media (max-width:930px) {
-                        .middlepart{
-                         height: 1020px;
-                      }
-                     }
+    @media (max-width:930px) {
+    .middlepart{
+    height: 1020px;
+    }
+    }
                         
-                     @media (max-width:790px) {
-                      .myinfo {
-                        margin: 0 30px;
+    @media (max-width:790px) {
+    .myinfo {
+    margin: 0 30px;
                                                 
-                      }                        
-                    }
+    }                        
+    }
 
-                     @media (max-width:790px){
-                      .largebuttons{
-                        size-adjust: 100%;
-                      }
-                     }
+    @media (max-width:790px){
+   .largebuttons{
+    size-adjust: 100%;
+    }
+    }
 
-                     @media (max-width:454.50px) {
-                      .myinfo{
-                        height: 250vh;
+    @media (max-width:454.50px) {
+    .myinfo{
+    height: 250vh;
                         
-                      }
-                    }
+    }
+    }
 
-        @media (max-width:390px) {
-          .myphoto{
-            height: 50%;
-          }
-          }
+    @media (max-width:390px) {
+    .myphoto{
+    height: 50%;
+    }
+    }
 
-          @media (max-width:293px) {
-            .largebuttons input{
-              display: none;
-            }
-            .middlepart{
-              height: 500px;
-            }
-            }
-            @media (max-width:328px) {
-              .myinfo{
-              height: 300vh; 
-              }}
+    @media (max-width:293px) {
+    .largebuttons input{
+    display: none;
+    }
+    .middlepart{
+    height: 500px;
+    }
+    }
+    @media (max-width:328px) {
+    .myinfo{
+     height: 300vh; 
+    }}
 
-            @media (max-width:284px) {
-              .largebutton{
-              display: none; 
-              }
-              }
+    @media (max-width:284px) {
+    .largebutton{
+    display: none; 
+    }
+    }
                       
     @media (max-width:408.50px) {
       .myphoto{
@@ -275,33 +283,33 @@ cursor: pointer;
       }
     }
     @media (max-width:537.60px) {
-      .myphoto{
-        height: 70%;
-      }
+    .myphoto{
+    height: 70%;
+    }
     }
     @media (max-width:455px) {
-      .myinfo{
-        height: 160vh;
-      }
+    .myinfo{
+    height: 160vh;
+    }
     }
     }
     @media (max-width:328px) {
-      .myphoto{
-        display: none;
-              }
-              .middlepart{
-            height: 730px;
-              }        
-      }
+    .myphoto{
+     display: none;
+    }
+    .middlepart{
+    height: 730px;
+    }        
+    }
     
     @media (max-width:409px) {
-      .myphoto{
-        height: 45%;
-      }
+    .myphoto{
+    height: 45%;
+    }
     }
     @media (max-width:234.40px) {
-      .downloadcv a{
-      display: none;
-      }
+    .downloadcv a{
+    display: none;
+    }
     }
 
