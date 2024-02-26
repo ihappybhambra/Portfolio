@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(162, 192, 103);
+  background-color: rgb(223, 245, 180);
   animation-name: example;
   animation-duration: 7s;
 }
@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 3vw;
     
      }
  
@@ -35,8 +35,8 @@ header {
 }
 .logoimage:hover {
     border: 2px solid rgba(103, 231, 67, 0.91);
-color: rgba(103, 231, 67, 0.91);
-cursor: pointer;   
+cursor: pointer; 
+  
 }
 
 .navsocialmedia{
@@ -77,25 +77,29 @@ cursor: pointer;
             background-color: rgb(210, 210, 246); 
             margin: 5px;  
             height: 550px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
             }
 
           .myphoto {
-            width: 500px;
-            height: 360px;
+            width: 80vw;
+            height: 390px;
             background-color: black;
             border-radius: 20px;
             margin: 60px; 
-            overflow:hidden;
-                        }
+            overflow: hidden;
+           
+            }
 
             .myinfo {
             border-radius: 20px;
-            width: 750px;
-            height: 600px;
-            max-height: 1200px;
+            width: 100%;
+            height: 100%;
             position: relative;
-            overflow: hidden;
-             }
+            overflow: hidden; 
+            margin-right: 20px; 
+           }
 
           .myinfor {
            margin: 20px;
@@ -124,8 +128,7 @@ cursor: pointer;
             font-size: 19px; 
             top: 30px;
             text-align: center;
-
-             }
+            }
           
            .largebutton {
             width: 100px; 
@@ -188,22 +191,117 @@ cursor: pointer;
                 position: relative;
                 right: 60px;
                 top: 30px;
-              }
+              }                    
 
-              @media  all and (max-width: 1200px){
-                .middlepart{
-                  height: 700px;
-                  } 
-                }
-                            
+              @media (max-width: 930px) {
+                .myphoto{
+                display: flex;
+                width: 80%;
+                height: 100%;
+                margin-top: 0;
+                } }
 
-                  @media screen and (max-width: 1200px) {
-                    .myphoto{
-                      display: none;
-                    } }
-
-                    @media screen and (max-width: 1200px) {
-                      .myinfo {
-                        height: 700px;
+                @media (max-width:930px) {
+                  .middlepart{
+                    display: flex;
+                   flex-direction: column-reverse;
+                  }
+                
+                     @media (max-width: 600px) {
+                      .middlepart {
+                        height: 550px;
                       }           
+                    }
+                        @media (max-width:840px) {
+                         .middlepart{
+                          height: 600px;
+                        }
+                      }
+
+                      @media (max-width:930px) {
+                        .middlepart{
+                         height: 1020px;
+                      }
                      }
+                        
+                     @media (max-width:790px) {
+                      .myinfo {
+                        margin: 0 30px;
+                                                
+                      }                        
+                    }
+
+                     @media (max-width:790px){
+                      .largebuttons{
+                        size-adjust: 100%;
+                      }
+                     }
+
+                     @media (max-width:454.50px) {
+                      .myinfo{
+                        height: 250vh;
+                        
+                      }
+                    }
+
+        @media (max-width:390px) {
+          .myphoto{
+            height: 50%;
+          }
+          }
+
+          @media (max-width:293px) {
+            .largebuttons input{
+              display: none;
+            }
+            .middlepart{
+              height: 500px;
+            }
+            }
+            @media (max-width:328px) {
+              .myinfo{
+              height: 300vh; 
+              }}
+
+            @media (max-width:284px) {
+              .largebutton{
+              display: none; 
+              }
+              }
+                      
+    @media (max-width:408.50px) {
+      .myphoto{
+        height: 80%;
+      }
+    }
+    @media (max-width:537.60px) {
+      .myphoto{
+        height: 70%;
+      }
+    }
+    @media (max-width:455px) {
+      .myinfo{
+        height: 160vh;
+      }
+    }
+    }
+    @media (max-width:328px) {
+      .myphoto{
+        display: none;
+              }
+              .middlepart{
+            height: 730px;
+              }        
+      }
+    
+    @media (max-width:409px) {
+      .myphoto{
+        height: 45%;
+      }
+    }
+    @media (max-width:234.40px) {
+      .downloadcv a{
+      display: none;
+      }
+    }
+
