@@ -1,0 +1,182 @@
+@media (max-width: 930px) {
+    .myphoto{
+     display: flex;
+     width: 80%;
+     height: 100%;
+      margin-top: 0;
+      } }
+  
+      @media (max-width:930px) {
+      .middlepart{
+      display: flex;
+      flex-direction: column-reverse;
+      }}
+                  
+      @media (max-width: 600px) {
+      .middlepart {
+      height: 550px;
+      }           
+      }
+      @media (max-width:840px) {
+      .middlepart{
+      height: 600px;
+      }
+      }
+  
+      @media (max-width:930px) {
+      .middlepart{
+      height: 1020px;
+      }
+      }
+    
+      @media (max-width:790px){
+     .largebuttons{
+      size-adjust: 100%;
+      }
+      }
+  
+      @media (max-width:720px) {
+        .myinfo{
+        height: 250vh;             
+        }
+        }
+  
+      @media (max-width:390px) {
+      .myphoto{
+      height: 40%;
+      }
+      }  
+        
+      @media (max-width:293px) {
+      .largebuttons input{
+      display: none;
+      }
+      .middlepart{
+      height: 500px;
+      }
+      }
+      @media (max-width:328px) {
+      .myinfo{
+       height: 300vh; 
+      }}
+  
+      @media (max-width:357px) {
+        .myphoto{
+        display: none;
+        }
+        .middlepart{
+          height: 100vh;
+        }
+        }
+  
+      @media (max-width:284px) {
+      .largebutton{
+      display: none; 
+      }
+      }
+                        
+      @media (max-width:455px) {
+      .myinfo{
+      height: 160vh;
+      }
+      }
+      @media (max-width:455px) {
+        .myinfo{
+        margin-top: 0;
+        }
+        }
+      
+        @media (max-width:930px) {
+          .myinfo{
+          margin-top: 0;
+          }
+          }
+  
+      @media (max-width:328px) {
+      .myphoto{
+       display: none;
+      }
+      .middlepart{
+      height: 730px;
+      }        
+      }
+      
+      @media (max-width:409px) {
+      .myphoto{
+      height: 45%;
+      }
+      }
+  
+      @media (max-width:455px) {
+        .myphoto{
+        height: 60%;
+        }
+        }
+  
+      @media (max-width:234.40px) {
+      .downloadcv a{
+      display: none;
+      }
+      }
+      @media (max-width:390px) {
+        .downloadcv a{
+        display: none;
+        }
+        }
+
+        @media (max-width:930px) {
+            .contactform{
+            display: flex;
+            flex-direction: column;
+            }}
+      
+            @media (max-width:450px) {
+              .leftside{
+             height: 65vh ;
+              }}
+      
+              @media (max-width:290px) {
+                .leftside{
+               height: 75vh ;
+                 } }
+      
+                 @media (max-width:250px) {
+                  .leftside{
+                 height: 85vh ;
+                   } }
+        
+                   @media (max-width:930px) {
+                    .contactform{
+                   height: 850px ;
+                     } }
+          
+                     @media (max-width:450px) {
+                      .leftside{
+                     height: 550px ;
+                       } }
+      
+                       @media (max-width:930px) {
+                        .leftside{
+                       height: 430px ;
+                         } }
+            
+                         @media (max-width:290px) {
+                          .leftside{
+                         height: 830px ;
+                           } }
+      
+                           @media (max-width:267px) {
+                            .leftside{
+                           height: 2000px ;
+                             } }
+      
+                             @media (max-width:930px) {
+                              .rightside{
+                             height: 60% ;
+                               } }
+                               @media (max-width:290px) {
+                                .rightside{
+                               height: 100% ;
+                                 } }
+                                 
+                                     
