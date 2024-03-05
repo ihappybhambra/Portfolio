@@ -1,7 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
- background-color: rgb(223, 245, 180);
+ background-color: #F8F4EB;
  animation-name: example;
  animation-duration: 7s;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @keyframes example {
@@ -15,8 +20,9 @@ header {
  background-color: #424242;
  padding: 20px 0;
  height: 45px;
- border-radius: 10px;
  overflow: hidden;
+ border-radius: 8px;
+ overflow-x:  hidden;
  }
 
  .navbar {
@@ -46,6 +52,7 @@ overflow: hidden;
     
 .hub {
 width: 39px;
+top: 2px;
 position: relative;
 margin-right: 30px ;
 }
@@ -71,24 +78,25 @@ cursor: pointer;
 }
 
 .middlepart {
-border-radius: 15px ;
+border: 1px solid black;
+border-radius: 8px;
 display: flex; 
-background-color: rgb(210, 210, 246); 
-margin: 5px;  
-height: 550px;
+background-color: #F8F4EB; 
+margin-top: 2px;  
+height: calc(100vh - 45px);
 justify-content: center;
 align-items: center;
-overflow: hidden;
 }
 
 .myphoto {
-width: 80vw;
-height: 390px;
-background-color: black;
+width: 90%;
+height: 70%;
+margin: 0px 30px 60px 30px;
 border-radius: 20px;
-margin: 60px; 
 overflow: hidden;
-          
+float: left;
+
+     
 }
 
 .myinfo {
@@ -97,7 +105,9 @@ overflow: hidden;
  height: 100%;
  position: relative;
  overflow: hidden; 
- margin-right: 20px; 
+ justify-content: center;
+align-items: center;
+margin-top: 100px;
  }
 
   .myinfor {
@@ -106,7 +116,7 @@ overflow: hidden;
   top: 50px;
   color: rgb(255, 68, 0);
   text-align: center;
-  animation: slidein 2s ease-in-out            
+  animation: slidein 2s ease-in-out;
   }
 
   @keyframes slidein {
@@ -119,6 +129,8 @@ overflow: hidden;
   opacity: 1;
   }
   }
+
+  
 
    .jobtitle {
    font-style: italic;
@@ -141,8 +153,7 @@ overflow: hidden;
     }
           
      .largebutton {
-     width: 100px; 
-     height: 40px; 
+     padding: 10px 20px;
      font-size: 16px; 
      border-radius: 10px;
      margin: 10px;
@@ -201,115 +212,108 @@ overflow: hidden;
    top: 30px;
    }                    
 
-   @media (max-width: 930px) {
-  .myphoto{
-   display: flex;
-   width: 80%;
-   height: 100%;
-    margin-top: 0;
-    } }
+  .contactform {
+  margin: 2.5px 0px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 450px;
+  background-color: #F8F4EB;
+  display: flex;
+  }
 
-    @media (max-width:930px) {
-    .middlepart{
-    display: flex;
-    flex-direction: column-reverse;
-    }
-                
-    @media (max-width: 600px) {
-    .middlepart {
-    height: 550px;
-    }           
-    }
-    @media (max-width:840px) {
-    .middlepart{
-    height: 600px;
-    }
-    }
+  .leftside {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding : 40px 0 0 35px;
+  margin-right: 40px;
 
-    @media (max-width:930px) {
-    .middlepart{
-    height: 1020px;
-    }
-    }
-                        
-    @media (max-width:790px) {
-    .myinfo {
-    margin: 0 30px;
-                                                
-    }                        
-    }
+  }
 
-    @media (max-width:790px){
-   .largebuttons{
-    size-adjust: 100%;
-    }
-    }
+ .leftside p{
+ display:inline-flex;
+  }
 
-    @media (max-width:454.50px) {
-    .myinfo{
-    height: 250vh;
-                        
-    }
-    }
+ .leftside .heading2{
+ font-size: 1.5em;
+ color: rgb(255, 68, 0);
+ padding: 10px 5px;
+ margin-right: 40px;
+  }
 
-    @media (max-width:390px) {
-    .myphoto{
-    height: 50%;
-    }
-    }
 
-    @media (max-width:293px) {
-    .largebuttons input{
-    display: none;
-    }
-    .middlepart{
-    height: 500px;
-    }
-    }
-    @media (max-width:328px) {
-    .myinfo{
-     height: 300vh; 
-    }}
-
-    @media (max-width:284px) {
-    .largebutton{
-    display: none; 
-    }
-    }
-                      
-    @media (max-width:408.50px) {
-      .myphoto{
-        height: 80%;
-      }
-    }
-    @media (max-width:537.60px) {
-    .myphoto{
-    height: 70%;
-    }
-    }
-    @media (max-width:455px) {
-    .myinfo{
-    height: 160vh;
-    }
-    }
-    }
-    @media (max-width:328px) {
-    .myphoto{
-     display: none;
-    }
-    .middlepart{
-    height: 730px;
-    }        
-    }
+  .leftside .heading,
+  .leftside #icon{
+  padding: 10px 5px;
+  font-size: 2em;
+  color: rgb(255, 68, 0);
+  }
     
-    @media (max-width:409px) {
-    .myphoto{
-    height: 45%;
-    }
-    }
-    @media (max-width:234.40px) {
-    .downloadcv a{
-    display: none;
-    }
-    }
 
+  .leftside .heading{
+  margin-top: 20px;
+  margin-right: 40px;
+  }
+
+  .leftside .emailid,
+  .leftside .number{
+  color: rgb(255, 68, 0);
+  font-weight: bold;
+   }
+    
+  .leftside .cv {
+  padding: 10px 15px;
+  background-color: rgba(255, 68, 0);
+  color: white;
+  }
+
+  .rightside {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .rightside .yourname {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: #FFA6A3;      
+  }
+  
+  .rightside .youremail {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: #FFA6A3; 
+  }
+  
+  .rightside .yourmsg {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  padding: 10px 5px 100px;
+  margin-bottom: 20px;
+  background-color: #FFA6A3;  
+  }
+  
+  .rightside .submitbtn {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  padding: 10px 0;
+  background-color: rgb(255, 68, 0);
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  }
+
+    
