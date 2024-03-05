@@ -89,8 +89,8 @@ align-items: center;
 }
 
 .myphoto {
-width: 90%;
-height: 70%;
+width: 80%;
+height: 65%;
 margin: 0px 30px 60px 30px;
 border-radius: 20px;
 overflow: hidden;
@@ -316,4 +316,5 @@ margin-top: 100px;
   font-size: 1.1em;
   }
 
-    
+  .rightside .submitbtn:hover {
+  cursor: pointer;
