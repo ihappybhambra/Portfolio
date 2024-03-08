@@ -220,7 +220,6 @@ margin-top: 100px;
   border-radius: 8px;
   height: 450px;
   background-color: #F8F4EB;
-  display: flex;
   }
 
   .leftside {
@@ -318,3 +317,4 @@ margin-top: 100px;
 
   .rightside .submitbtn:hover {
   cursor: pointer;
+  }
